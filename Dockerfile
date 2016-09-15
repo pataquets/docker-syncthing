@@ -1,4 +1,4 @@
-FROM pataquets/ubuntu:trusty
+FROM pataquets/ubuntu:xenial
 
 RUN \
   apt-key adv --keyserver hkp://hkps.pool.sks-keyservers.net --recv-keys 00654A3E && \
